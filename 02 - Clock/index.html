@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Clock</title>
+    <link rel="icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <video class="bg-video" autoplay muted loop>
+      <source src="images/sky-with-air-balloons-timelapse.mp4" type="video/mp4" />
+    </video>
+
+    <div class="clock">
+      <div class="clock-face">
+        <span class="time-12"></span>
+        <span class="time-3"></span>
+        <span class="time-6"></span>
+        <span class="time-9"></span>
+        <span class="center"></span>
+
+        <div class="hand hour-hand"></div>
+        <div class="hand min-hand"></div>
+        <div class="hand second-hand"></div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
